@@ -1,0 +1,8 @@
+Contact Us Page - Public GitHub URL
+====================================
+https://github.com/armstrongfelix/fullstack_developer_capstone/blob/main/server/frontend/static/Contact.html
+
+Local path: server/frontend/static/Contact.html
+Route: path('contact/', TemplateView.as_view(template_name="Contact.html")) in server/djangoproj/urls.py
+Live dev URLs: http://127.0.0.1:8000/contact/ and http://127.0.0.1:8000/contact (both return 200, 4455 bytes)
+Verified content: Contact Us header, active nav link, /static/style.css + /static/bootstrap.min.css, contact info + styled form.
